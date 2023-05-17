@@ -651,7 +651,6 @@ GameObject:
   m_Component:
   - component: {fileID: 2083032285}
   - component: {fileID: 2083032286}
-  - component: {fileID: 2083032287}
   m_Layer: 0
   m_Name: Players
   m_TagString: Untagged
@@ -687,22 +686,14 @@ MonoBehaviour:
   m_GameObject: {fileID: 2083032284}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 201c9aba2e926c84fbbf37ed07a79be7, type: 3}
+  m_Script: {fileID: 11500000, guid: 6eb23ed9f31e65e40bb28eb30da7fbbc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &2083032287
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2083032284}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e98e1a1330393de419341c9971d2e22a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  dog:
-    race: Lhasa Apso
-    age: 1
-    length: 28
+  Values: 01000000
+  enemies:
+  - Name: Goblin lvl 1
+    Speed: 5
+    Damage: 2
+  - Name: Goblin lvl 2
+    Speed: 8
+    Damage: 5
